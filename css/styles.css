@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat';
+}
+/* HEADING AND PARAGRAPHS */
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h2 {
+
+  color: black;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* headings */
+.big-heading{
+  font-family: 'Lilita One', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: black;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.conatainer-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* NAvbar brand */
+.navbar-brand {
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+}
+
+/* navbar link */
+.nav-link {
+  font-family: 'Lilita One', cursive;
+  font-size: 1.3rem;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.Download-button {
+  margin: 5% 3% 6% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+  font-family: 'Lilita One', cursive;
+  text-align: center;
+  font-weight: bold;
+}
+
+.image {
+  color: #ff5722;
+  margin-bottom: 1rem;
+}
+
+.image:hover {
+  color: black;
+}
+
+/*   <!-- Testimonials section --> */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 4px 20px 50px;
+}
+
+#testimonials {
+  padding-bottom: 15px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 3% 5%;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+#cta {
+  height: 250px;
+  background-color: #ff4c68;
+  padding: 0 4%;
+  text-align: center;
+}
+
+.cta-font {
+  font-size: 2.5rem;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#footer {
+  text-align: center;
+  margin: 3% 5%;
+  background-color: white;
+}
+
+.fab {
+  padding: 2% 1%;
+}
+
+.far {
+  padding-left: 1%;
+}
+
+.carousel-item {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    align-items: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
